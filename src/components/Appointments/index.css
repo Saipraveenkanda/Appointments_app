@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 700px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-size: 28px;
+  color: #171f46;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.label {
+  font-size: 12px;
+  color: #b5b7c4;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.image {
+  width: 350px;
+}
+.input-style {
+  width: 250px;
+  height: 34px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.date-style {
+  width: 250px;
+  height: 34px;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  outline: none;
+  font-size: 14px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  width: 50px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.line {
+  height: 1px;
+  width: 100%;
+}
+.bottom-card {
+  background-color: white;
+}
+.app-heading {
+  font-size: 22px;
+  color: #171f46;
+}
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filter-btn {
+  background-color: transparent;
+  color: #8b5cf6;
+  border: 1px solid #9897f0;
+  height: 22px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
+.appointments-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filtered-btn {
+  background-color: #9897f0;
+  color: #ffffff;
+  border: none;
+  height: 22px;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+}
